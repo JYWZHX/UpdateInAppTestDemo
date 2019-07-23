@@ -14,9 +14,15 @@ import com.xuexiang.xupdate.utils.UpdateUtils;
 
 public class MainActivity extends AppCompatActivity {
 
+    private String updateUrl = "https://raw.githubusercontent.com/JYWZHX/UpdateInAppTestDemo/master/jsonapi/version.json";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        XUpdate.newBuild(this)
+                .updateUrl(updateUrl)
+                .update();
     }
 }

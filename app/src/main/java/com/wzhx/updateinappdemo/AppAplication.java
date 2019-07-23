@@ -10,7 +10,7 @@ import com.xuexiang.xupdate.listener.OnUpdateFailureListener;
 import com.xuexiang.xupdate.utils.UpdateUtils;
 
 public class AppAplication extends Application {
-    private static final int CHECK_NO_NEW_VERSION = 1;
+    private static final int CHECK_NO_NEW_VERSION = 0;
 
     @Override
     public void onCreate() {
