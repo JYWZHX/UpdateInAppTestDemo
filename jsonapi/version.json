@@ -5,7 +5,7 @@
   "VersionCode": 3,
   "VersionName": "1.0.2",
   "UploadTime": "2019-07-23 10:43:40",
-  "ModifyContent": "\r\n1、新增强制跟新接口。\r\n2、优化更新提示界面。",
-  "DownloadUrl": "https://github.com/JYWZHX/UpdateInAppTestDemo/blob/master/apk/test.apk?raw=true",
+  "ModifyContent": "1、新增强制跟新接口。2、优化更新提示界面。",
+  "DownloadUrl": "https://github.com/JYWZHX/UpdateInAppTestDemo/blob/master/apk/ptrider.apk?raw=true",
   "ApkSize": "1897"
 }

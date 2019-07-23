@@ -16,7 +16,7 @@ public class AppAplication extends Application {
     public void onCreate() {
         super.onCreate();
         XUpdate.get()
-                .debug(true)
+                .debug(false)
                 .isWifiOnly(false)
                 .isGet(true)
                 .isAutoMode(false)
