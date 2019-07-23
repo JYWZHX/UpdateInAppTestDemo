@@ -29,4 +29,5 @@ dependencies {
     implementation 'com.github.xuexiangjys:XUpdate:1.0.9' // 应用内更新框架
     implementation 'com.zhy:okhttputils:2.6.2' // okhttp依赖
     implementation "com.squareup.okhttp3:okhttp:3.3.0" // okhttp依赖
+    implementation 'com.google.code.gson:gson:2.8.5' // gson
 }

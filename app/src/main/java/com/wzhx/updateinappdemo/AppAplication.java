@@ -19,7 +19,7 @@ public class AppAplication extends Application {
                 .debug(true)
                 .isWifiOnly(false)
                 .isGet(true)
-                .isAutoMode(true)
+                .isAutoMode(false)
                 .param("versionCode", UpdateUtils.getVersionCode(this))
                 .param("appKey", getPackageName())
                 .setOnUpdateFailureListener(new OnUpdateFailureListener() {
